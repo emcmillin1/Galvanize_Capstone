@@ -1,0 +1,31 @@
+For my capstone I would like to perform sentiment analysis to determine what tone supports ctr for online articles.
+  Goal 1: Create infrastructure (including preprocessing through sentiment analysis scoring (polarity))
+    Provides a robust resource that can be used in a number of ways after project (recommendation feature, subcategorizing, pre-publishing score of polarity, report category)
+    --specifics--
+      Most likely limited to one domain, train model on a corpus (open source corpus's available),
+        Finished product is a script that can accept a url or body of text, preprocess content, then spit out score
+        --notes--
+        can be used on both articles and comments (potentially more valuable)
+          article polarity vs comment polarity
+
+  Goal 1.1: Add 'polarity' column to dataset
+
+
+  When goal1 met:
+    visualization of valuable metrics subdivided by polarity and potentially other features (topic, domain, etc.)
+      These results steer the rest of the project (if significant findings, explore. else, continue)
+
+  Potential pathways after:
+    Build app for users to test polarity (import article/ url, get score)
+    A-B testing: more vs less polar score vs ctr/ views/ ads clicked
+      --hypothesis--
+      More polar comments produce more shares/ views/ ad clicks
+    Incorporate more use cases (more domains, increased functionality, etc)
+    Link sentiment to keywords using spacy highlighting
+      Linked in streamed data: keyword linked sentiment vs views in x amount of time for titles containing keyword
+        --Hypothesis-- If we can identify what types of articles comments are correlated with improved performance |
+          and twitter keyword sentiment from streaming data can predict comment polarity. We can pick topics from twitter that improves performance
+
+
+    Sentiment for topic:
+      which polarities improve revenue

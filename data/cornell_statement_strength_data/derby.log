@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Tue Sep 12 14:08:07 MDT 2017:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-015e-77b4-bbd8-00000d718d78 
+on database directory /home/eric/Galvanize/immersive/capstone/metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@4877bf99 
+Loaded from file:/usr/local/spark/jars/derby-10.12.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_144-b01
+user.dir=/home/eric/Galvanize/immersive/capstone
+os.name=Linux
+os.arch=amd64
+os.version=4.10.0-33-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
